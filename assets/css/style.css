@@ -4,8 +4,8 @@ html{
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
-    background-color: #6d597a;
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgb(133, 237, 140);
 }
 
 /* splash screen css starts here  */
@@ -13,36 +13,36 @@ body{
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #e4eff2 url("https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif") no-repeat center center;
+    background:rgb(238, 245, 237) url("https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif") no-repeat center center;
     z-index: 99999;
 }
 /* splash screen css ends here  */
 
 /* navbar css starts here  */
 .bg-light{
-    background-color: #f2e9e4!important;
+    background-color: rgb(238, 245, 237)!important;
 }
 
 .navbar-brand{
-    font-family: 'Sansita Swashed', cursive;
+    font-family: "Times New Roman", Times, serif;
     font-size: 1.5rem;
-    color: #5f6368!important;
+    color: rgb(26, 71, 11)!important;
 }
 
 .nav-link{
-    color: #5f6368!important;
-    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(90, 102, 86)!important;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .nav-link:hover{
-    background-color: #f3f1f1;
+    background-color: rgb(206, 240, 201);
 }
 /* navbar css ends here  */
 
 /* here content css starts here  */
 .hero-content{
     height: 100vh;
-    background-color: #355070;
+    background-color: rgb(4, 130, 21);
     color: #ffffff;
     padding: 3rem;
     border-bottom-left-radius: 45rem;
@@ -66,13 +66,13 @@ body{
     padding: 1rem 2rem;
     font-size: 162%;
     background-color: #fff;
-    color: #039be5!important;
+    color: rgb(25, 97, 20)!important;
     transition: 0.3s;
 }
 
 .get-started:hover{
     text-decoration: none;
-    background-color: #bfdff0;
+    background-color: rgb(230, 237, 230);
     
 }
 /* here content css starts here  */
@@ -80,11 +80,11 @@ body{
 /* get-started-buttons css starts here*/
 .get-started-content{
     height: 60vh;
-    background-color: #ff8a65;
-    border-top-left-radius: 42rem;
-    border-top-right-radius: 42rem;
-    border-bottom-right-radius: 42rem;
-    border-bottom-left-radius: 42rem;
+    background-color: rgb(169, 237, 142);
+    border-top-left-radius: 42 rem;
+    border-top-right-radius:  42 rem;
+    border-bottom-right-radius: 42 rem ;
+    border-bottom-left-radius: 42 rem ;
 }
 
 .get-started-content .row{
@@ -95,20 +95,20 @@ body{
     border-radius: 0.5rem;
     padding: 1rem 2rem;
     font-size: 162%;
-    background-color: #039be5;
+    background-color:rgb(37, 79, 6);
     color: #fff!important;
     transition: 0.3s;
 }
 
 .get-started-content a:hover{
-    background-color: #017ab6;
+    background-color: rgb(26, 71, 11);
     text-decoration: none;
 }
 /* get-started-buttons css end here*/
 
 /* footer css starts here */
 footer{
-    background-color:  #f2e9e4;
+    background-color: rgb(243, 250, 242);
 }
 
 .social-icons li{
